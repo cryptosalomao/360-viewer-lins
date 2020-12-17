@@ -5,7 +5,7 @@ const container = document.getElementById('viewer');
 
 const viewer = new PhotoSphereViewer({
   container,
-  panorama: './img/terreo-andar.jpg',
+  panorama: './img/3-andar.jpg',
   navbar: [
     'autorotate',
     'zoom',
@@ -19,6 +19,7 @@ $('button.item').click(function(e) {
   viewer.setPanorama(nextImg);
   $(this).toggleClass('active').siblings().removeClass('active');
 });
+
 },{"photo-sphere-viewer":3}],2:[function(require,module,exports){
 // doT.js
 // 2011-2014, Laura Doktorova, https://github.com/olado/doT
